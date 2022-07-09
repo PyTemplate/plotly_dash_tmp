@@ -58,16 +58,8 @@ Using `Docker`:
 ```bash
 git clone https://github.com/crabtr26/pytemplates.git
 cd pytemplates
-docker build . -t api
-docker run --rm -p 3000:80 api
-```
-
-Using `Docker Compose`:
-
-```bash
-git clone https://github.com/crabtr26/pytemplates.git
-cd pytemplates
-docker compose up
+docker build . -t plotly_dash
+docker run --rm -p 3000:80 plotly_dash
 ```
 
 ## Testing
